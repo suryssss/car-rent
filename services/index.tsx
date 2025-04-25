@@ -35,7 +35,7 @@ type CarLocationResponse = {
 };
 
 const MASTER_URL =
-  "https://ap-south-1.cdn.hygraph.com/content/cm92w4w0w01q607uwx410swgb/master";
+  "";
 
 export const getCarsList = async (): Promise<CarListResponse> => {
   const query = gql`
